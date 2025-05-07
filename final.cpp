@@ -219,6 +219,7 @@ public:
 
             case 2:
                 listFiles();
+                system("pause");
                 break;
 
             case 3:
@@ -226,6 +227,7 @@ public:
                 cout << ">> Enter filename to view: ";
                 getline(cin, filename);
                 viewFile(filename);
+                system("pause");
                 break;
 
             case 4:
